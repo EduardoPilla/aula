@@ -4,6 +4,7 @@ class Aluno {
     String nome
     String email
     String ra
+    String apelido
 
     static constraints = {
         nome blank:false, size:1..30
